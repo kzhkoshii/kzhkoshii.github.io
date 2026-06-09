@@ -277,6 +277,11 @@ p { margin: 0 0 18px; }
 
 .publication-group + .publication-group { margin-top: 48px; }
 
+.publication-group h2 {
+  font-size: clamp(1.55rem, 2.25vw, 2.25rem);
+  margin-bottom: 22px;
+}
+
 .publication-list {
   counter-reset: publication;
   margin: 0;
@@ -298,7 +303,7 @@ p { margin: 0 0 18px; }
   font-size: 0.94rem;
 }
 
-.publication-title { font-weight: 600; }
+.publication-title { font-weight: 400; }
 
 .pdf-link {
   white-space: nowrap;
