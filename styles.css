@@ -204,10 +204,8 @@ p { margin: 0 0 18px; }
 }
 
 .about-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(260px, 0.58fr);
-  gap: clamp(44px, 6vw, 84px);
-  align-items: start;
+  display: block;
+  max-width: 1080px;
 }
 
 .about-photo {
@@ -386,8 +384,6 @@ p { margin: 0 0 18px; }
   .hero-image img { aspect-ratio: 1.25 / 1; }
 
   .about-layout { gap: 34px; }
-  .about-photo { position: static; order: -1; }
-  .about-photo img { max-height: 520px; object-position: center 42%; }
 
   .chinese-layout {
     min-height: auto;
